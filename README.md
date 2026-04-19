@@ -48,7 +48,11 @@ dotnet build -c Release
 
 ### Запустить приложение
 dotnet run -c Release
+
 Публикация в один исполняемый файл
+
 bash
 dotnet publish src/PokerLogViewer/PokerLogViewer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
-Исполняемый файл PokerLogViewer.exe будет создан в папке publish/.
+
+Исполняемый файл 
+PokerLogViewer.exe будет создан в папке publish/.
